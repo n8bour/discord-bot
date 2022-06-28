@@ -33,7 +33,7 @@ bot.on('guildCreate', guild => {
     console.log(`New server has added the bot! Name: ${guild.name}`);
 });
 
-bot.login('OTMxMjU5OTM5OTUzOTk5ODky.YeB1Zw.zK2yitU4qecwmLdHyVDFoCaDhCE');
+bot.login(${TOKEN});
 
 function getPrice() {
     //https://docs.dexscreener.com/#undefined

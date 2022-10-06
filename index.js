@@ -34,7 +34,7 @@ function getPrice() {
     //https://docs.dexscreener.com/#undefined
     let json = {};
 
-    axios.get(url)
+    axios.get(URL)
         .then(function (res) {
             if (res.data) {
                 console.log('Retrieved all data');

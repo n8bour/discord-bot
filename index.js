@@ -50,7 +50,7 @@ function getPrice() {
             `${json["baseToken"]["symbol"]}: ${json["priceUsd"]}$ `
           )
         );
-        bot.user.setActivity(`24h: ${json["priceChange"]["h24"]}}%`, {
+        bot.user.setActivity(`24h: ${json["priceChange"]["h24"]}%`, {
           type: "WATCHING",
         });
       }

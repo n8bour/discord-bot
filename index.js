@@ -19,7 +19,7 @@ bot.on("ready", () => {
 
   bot.guilds.cache.each((guild) => guildMeCache.push(guild.me));
 
-  UPDATE_INTERVAL = 60000; //1min
+  UPDATE_INTERVAL = 60000 * 5; //1min * 5
 
   getPrice();
   setInterval(getPrice, UPDATE_INTERVAL);
